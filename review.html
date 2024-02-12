@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+    <title>Review</title>
+    <link rel="stylesheet" href="review.css">
+</head>
+
+<body class="background">
+        <div class="navBar" style="position: fixed;top: 0;">
+            <a href="index.html">Home</a>
+            <a href="Destination.html">Destination</a>
+            <a href="Activities-n.html">Activities</a>
+            <a href="HotelNResort.html">Hotel And Resort</a>
+            <a href="trans.html">Transportation</a>
+            <a href="review.html" class="active">Review</a>
+            <img src="Logo3t.png" style="width:85px;height: 85px;float:right;">
+        </div>
+        <div class="grid-container">
+            <div class="grid-itemA" >
+                <h1>
+                    Write your review
+                </h1>
+                <h2>
+                    "We Always Welcome Your <br>Feedback"
+                </h2>
+                <h3>
+                    We are waiting to hear from you...Share your memorable tour experiences with us
+                </h3>
+            </div>    
+        
+            <div class="grid-itemA ">
+                <form action="#" method="post" onsubmit="thanks()">
+                    <h3><b>Name</b></h3>
+                    <input type="text" name="name" required>
+                    <h3><b>Email</b></h3>
+                    <input type="email" name="email" required/>
+                    <h3><b>Phone</b></h3>
+                    <input type="numbers" name="cNumber" required>
+                    <h3><b>Your Country</b></h3>
+                    <input type="text" />
+                   <h3><b>Message</b></h3><br />
+                            <textarea name="Massage" rows="4" cols="40" id="text">
+                                Enter Your Massage
+                            </textarea><br />
+                    <br />
+                    <br />
+                    <input type="submit"  class="smallinput" />
+                    <input type="reset" name="resetbutton" class="smallinput" />
+                </form>
+            </div>
+            <div class="grid-itemB">
+                <div style="float: left;">
+                    <h2>TraveL Expert limited</h2>
+                    <h3>Contact Us:</h3>
+                    <ul>
+                        <li>Phone : 076 646 7933</li>
+                        <li>Email : travelexpert@gmail.com</li>
+                        <li>Facebook : travelexpert/www.facebook.com</li>
+                        <li>Twitter : Travel Expert</li>
+                    </ul>
+                    </div>
+                    <div>
+                        <img src="Logo3t.png" style="width:330px;height: 330px;float:right;">
+                    </div>    
+                </div>  
+            </div>
+        </div>
+        <script type="text/javascript">
+            function thanks(){
+                var text="THANK YOU !";
+                alert(text);
+            }
+        </script>
+</body>
+
+</html>

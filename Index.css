@@ -1,0 +1,193 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.navBar {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.5);
+  width: 99%;
+  border-radius: 5px;
+  color: rgb(17, 16, 16);
+  text-shadow: 2px 2px 4px #000000;
+  height: 90px;
+  margin-left: 0.5%;
+}
+
+.navBar a {
+  float: left;
+  display: block;
+  color: #fff;
+  text-align: center;
+  padding: 28px 35px;
+  text-decoration: none;
+  font-size: 25px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  border-radius: 5px;
+}
+
+.navBar a:hover {
+  background: rgb(193, 196, 183);
+  background: rgba(193, 196, 183, 0.5);
+  color: black;
+  border-radius: 5px;
+}
+
+.background {
+  background-image: url("photos/Background/newbeach.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sent {
+  color: rgb(220, 222, 233);
+  background: rgb(0, 0, 0);
+  background: rgba(12, 1, 1, 0.8);
+  font-size: 150px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  padding-left: 40px;
+  padding-top: 40px;
+  height: 100%;
+  text-shadow: 5px 5px 4px #615c5c;
+}
+
+.back {
+  background-color: #ddd;
+  opacity: 0.5;
+  height: 300px;
+}
+
+.head {
+  background-color: rgb(206, 155, 15);
+  height: 100px;
+  width: 100%;
+  border-radius: 5px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.card {
+  padding: 5px;
+  margin: 2px;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  gap: 95px;
+  padding: 100px;
+  width: 100%;
+}
+
+.grid-itemA {
+  height: 300px;
+  width: 100%;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8), 0 20px 80px 0 rgba(0, 0, 0, 0.19);
+  left: 50%;
+}
+
+.grid-itemB {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  text-align: center;
+  padding: 20px;
+  font-size: 25px;
+  border-radius: 5px;
+  height: 80px;
+  width: 100%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.grid-itemC {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px;
+  font-size: 20px;
+  height: 600px;
+  width: 600px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.grid-itemD {
+  background: rgb(0, 0, 0);
+  background: rgba(0, 0, 0, 0.7);
+  font-size: 25px;
+  border-radius: 5px;
+  height: 320px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: white;
+  text-shadow: 2px 2px 4px #000000;
+  margin-top: 80px;
+  padding-left: 10%;
+}
+
+.item0 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.item1 {
+  grid-column: 1 / span 2;
+  grid-row: 2;
+}
+
+.item6 {
+  grid-column: 1 / span 2;
+  grid-row: 5;
+}
+
+.imgpos {
+  width: 100%;
+  height: 450px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.topics {
+  font-size: 50px;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-weight: bold;
+  color: rgb(24, 8, 49);
+  padding: 10px 10px;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+.active {
+  background: rgb(250, 165, 6);
+  background: rgba(250, 165, 6, 0.7);
+}
+
+.name {
+  height: 500px;
+  width: 100%;
+  margin-bottom: 90px;
+  margin-left: 180px;
+  background: rgb(255, 255, 255);
+  background: rgba(255, 255, 255, 0.7);
+  top: 5%;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8), 0 20px 80px 0 rgba(0, 0, 0, 0.19);
+}
+
+input,
+select {
+  height: 40px;
+}
+
+.inputShadow {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+}

@@ -1,0 +1,90 @@
+.grid-container {
+    display: grid;
+    gap: 15px;
+    padding: 5px;
+    margin: 5px;
+  }
+  
+  .grid-item1 {
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0,0.7);
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+    border-radius: 5px;
+    height:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: white;
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: 80px;
+    
+  }
+  
+  .grid-item2 {
+    background: rgb(255, 255, 255);
+    background: rgba(255, 255, 255, 0.7);
+    padding: 10px;
+    font-size: 20px;
+    height:600px;
+    width: 470px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .item1 {
+    grid-column: 1 / span 3;
+    grid-row: 1;
+  }
+  
+  
+  
+  .item8 {
+    grid-column: 1 / span 3;
+    grid-row: 6;
+  }
+  input,select{height: 30px;}
+  .imgpos{width:100%; height:295px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  .inputShadow{box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    border-radius: 5px;
+  }
+  .navBar{
+    float:left;
+    background: rgb(0, 0, 0);
+    background: rgba(0,0,0, 0.5);
+    width: 100%;
+    border-radius:5px;
+    color:rgb(17, 16, 16); 
+    text-shadow: 2px 2px 4px #000000;
+    height:85px;
+  }
+  .navBar a {
+    float: left;
+    display: block;
+    color: #fff;
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 5px;
+  }
+  .navBar a:hover {
+    background: rgb(193, 196, 183);
+    background: rgba(193, 196, 183,0.5);
+    color: black;
+    border-radius: 5px;
+  }
+  .active {
+    background: rgb(250, 165, 6);
+    background: rgba(250, 165, 6,0.7);
+  }
+  .background{
+              background-image:url("photos/Background/shore.jpg");
+              background-size:cover;
+              background-repeat: no-repeat;
+              height: 3200px;
+              width: 100%;
+              border-radius:5px;
+              box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+              }

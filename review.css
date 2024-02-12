@@ -1,0 +1,121 @@
+    
+    body,html {
+        margin:0;
+        padding:0;
+    }
+        .navBar {
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0, 0.5);
+        width: 99%;
+        border-radius: 5px;
+        color: rgb(17, 16, 16);
+        text-shadow: 2px 2px 4px #000000;
+        height:90px;
+        margin-left: 0.5%;
+    }
+    
+    .navBar a {
+        float: left;
+        display: block;
+        color: #fff;
+        text-align: center;
+        padding:28px 35px ;
+        text-decoration: none;
+        font-size: 25px;
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+        font-weight: bold;
+        border-radius: 5px;
+    }
+    
+    .navBar a:hover {
+        background: rgb(193, 196, 183);
+        background: rgba(193, 196, 183, 0.5);
+        color: black;
+        border-radius: 5px;
+    }
+    
+    .active {
+        background: rgb(250, 165, 6);
+        background: rgba(250, 165, 6, 0.7);
+    }
+    
+    .grid-container {
+        display: grid;
+        gap: 10px;
+        padding: 5%;
+        width: 90%;
+        margin: 5px;
+    }
+    
+    
+    .grid-itemA {
+        text-align: center;
+        padding: 20px;
+        font-size: 25px;
+        border-radius: 5px;
+        background: rgb(12, 0, 0);
+        background: rgba(14, 0, 0, 0.7);
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: rgb(253, 250, 250);
+        text-shadow: 2px 2px 4px #000000;
+        margin-top: 80px;
+    }
+    .grid-itemB {
+        background: rgb(0, 0, 0);
+        background: rgba(0, 0, 0,0.7);
+        font-size: 25px;
+        border-radius: 5px;
+        height:320px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        color: white;
+        text-shadow: 2px 2px 4px #000000;
+        margin-top: 80px;
+        padding-left: 10%;
+    }
+    
+    
+    input,
+    button {
+        height: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        width: 50%;
+    }
+    
+    .smallinput {
+        height: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        width: auto;
+    }
+    
+    textarea {
+        border-radius: 5px;
+        height: 120px;
+        width: 50%;
+    }
+    
+    .background {
+        background-image: url("photos/Background/newbeach.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height: 3500;
+        width: 100%;
+        border-radius: 5px;
+    }
+    
+    h1,
+    h2,
+    h3 {
+        color: white;
+        text-align: center;
+    }
+    
+    input,
+    button {
+        height: 40px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+        border-radius: 5px;
+        width: 50%;
+        align-content: center;
+    }

@@ -1,0 +1,113 @@
+<DOCTYPE html>
+    <html>
+
+    <head>
+        <link rel="stylesheet" href="Transport.css">
+
+        <script type="text/javascript">
+            function thanks() {
+                var text = "THANK YOU !";
+                alert(text);
+            }
+        </script>
+    </head>
+
+    <body class="background">
+        <div class="navBar" style="position: fixed; top: 0">
+            <a href="index.html">Home</a>
+            <a href="Destination.html">Destination</a>
+            <a href="Activities-n.html">Activities</a>
+            <a href="HotelNResort.html">Hotel And Resort</a>
+            <a href="trans.html" class="active">Transportation</a>
+            <a href="review.html">Review</a>
+            <img src="Logo3t.png" style="width: 85px; height: 85px; float: right" />
+        </div>
+        <div class="grid-container">
+            <div class="grid-itemA" style="background-image: url(photos/Transportation/taxiback6.jpeg)">
+                <div class="trbox">
+                    <form action="#" method="" onsubmit="thanks()">
+                        <div style="margin-left: 100px">
+                            <label>Name :</label><br />
+                            <input type="text" placeholder="Name" name="name" size="20" maxlength="20" required /><br /><br />
+                            <label>E-mail Address : </label><br />
+                            <input type="text" placeholder="email@.com" name="email_adress" size="20" maxlength="20" required /><br /><br />
+                            <label>Contact Number :</label><br />
+                            <input type="numbers" placeholder="07xxxxxxxx" name="contact_number" size="20" maxlength="10" /><br /><br />
+                            <label>Number of Passengers :</label>
+                            <input type="number" name="num_of_passengers" min="1" required class="smallinput" /><br /><br />
+                            <label>Pickup Date :</label><br />
+                            <input type="date" name="pickup_date" size="20" min="00-04-2022" required class="smallinput" /><br /><br />
+                            <label>Pickup Time :</label><br />
+                            <input type="time" name="pickup_time" required class="smallinput" /><br /><br />
+                            <label>Pickup Place :</label><br />
+                            <input type="text" placeholder="Place" name="Pickup_Place" size="20" maxlength="20" required /><br />
+                        </div>
+                        <div style="margin-top: 25px">
+                            <label>Vehicle Type :</label>
+                            <input type="radio" name="vehicle_type" value="Van_highroof" class="radio" />Bus
+                            <img src="photos/Transportation/bus.jpg" alt="Bus" id="img" />
+                            <input type="radio" name="vehicle_type" value="Van_flatroof" class="radio" />Van
+                            <img src="photos/Transportation/KDH1.jpeg" alt="Van_flatroof" id="img" />
+                            <input type="radio" name="vehicle_type" value="car" class="radio" />Car
+                            <img src="photos/Transportation/car.jpeg" alt="Car" id="img" /><br />
+                        </div>
+                        <div style="margin-left: 100px; margin-top: 25px">
+                            <label>Your massage :</label><br />
+                            <textarea name="Massage" rows="4" cols="40" id="text">
+                                Enter Your Massage
+                            </textarea><br />
+                            <button type="submit" name="send" id="bt" class="smallinput">
+                                Send
+                            </button>
+                            <input type="reset" name="clear" value="Clear" id="bt" class="smallinput" />
+                        </div>
+                    </form>
+                </div>
+            </div>
+            <div class="grid-itemB">
+                <img src="photos/Transportation/taxigif.gif" alt="Gif" width="100%" height="400px" style="border-radius: 10px" />
+            </div>
+            <div class="grid-itemC">
+                <h1>OUR TRANSPORT SERVICE</h1>
+                <p>
+                    We offer best and safe customer service and highly personalized service in island wide. You can instantly book any taxi or cab service with entire rates. Tangalle Budget Taxi facilitates you with our 24hrs service throughout 365 days. We have comfy vehicles
+                    with a good condition that feel you worth.
+                </p>
+                <h1>WHAT WE OFFER?</h1>
+                <p>
+                    Budget taxi and cab service, rent a car with a driver, hire a van with a driver & pvt airport transfers.
+                </p>
+            </div>
+            <div class="grid-itemD">
+                <h1>WHY CHOOSE US?</h1>
+                <p>
+                    We are the best solution for you to get around sri lanka cheapy and safely .
+                </p>
+                <p>
+                    <b>Best rates:</b> Best rates and lowest price in town with the excellent quality service.<br /><br />
+                    <b>Wide range:</b> We have a wide range of budget cars, econmy cars, vans and luxury cars and buses for any transport or tour requirements with experienced driver.<br /><br />
+                    <b>Safe & reliable:</b> Our service is a premium cab service operating in and around tangelle well reputed name for more than 5 years.
+                    <br /><br />
+                    <b>Experienced drivers:</b> Not only we have well maintained fleet of vehicles but also we have experienced having track records for your safety.
+                </p>
+            </div>
+            <div class="grid-itemE">
+                <div style="float: left">
+                    <h2>TraveL Expert limited</h2>
+                    <h3>Contact Us:</h3>
+                    <ul>
+                        <li>Phone : 076 646 7933</li>
+                        <li>Email : travelexpert@gmail.com</li>
+                        <li>Facebook : travelexpert/www.facebook.com</li>
+                        <li>Twitter : Travel Expert</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="Logo3t.png" style="width: 330px; height: 330px; float: right" />
+                </div>
+            </div>
+        </div>
+    </body>
+
+    </html>
+</DOCTYPE>

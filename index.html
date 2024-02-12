@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="Index.css">
+</head>
+
+<body>
+    <div>
+        <div class="background">
+            <div class="navBar" style="position: fixed; top: 0">
+                <a href="index.html" class="active">Home</a>
+                <a href="Destination.html">Destination</a>
+                <a href="Activities-n.html">Activities</a>
+                <a href="HotelNResort.html">Hotel And Resort</a>
+                <a href="trans.html">Transportation</a>
+                <a href="review.html">Review</a>
+                <img src="Logo3t.png" style="width: 85px; height: 85px; float: right" />
+            </div>
+
+            <div class="grid-container">
+                <div class="grid-itemA item0">
+                    <div class="sent">Travel Expert</div>
+                </div>
+                <div class="grid-itemB item1">
+                    <form>
+                        <label for="location">Location: </label><input type="text" name="location"
+                            class="inputShadow" />&nbsp;
+                        <label for="location">Booking Date: </label><input type="date" name="bDate"
+                            class="inputShadow" />&nbsp;
+                        <label for="location">No Of Persons: </label><input type="number" name="noOFPersons" min="1"
+                            class="inputShadow" />&nbsp;
+                        <input type="submit" name="subbutton" value="Search" style="width: 150px" class="inputShadow" />
+                    </form>
+                </div>
+                <div class="grid-itemC item2">
+                    <img name="slide2" class="imgpos" />
+                    <p class="topics">Activities</p>
+                </div>
+                <div class="grid-itemC item3">
+                    <img name="slide3" class="imgpos" />
+                    <p class="topics">Destinations</p>
+                </div>
+                <div class="grid-itemC ietm4">
+                    <img name="slide4" class="imgpos" />
+                    <p class="topics">Transportation</p>
+                </div>
+                <div class="grid-itemC item5">
+                    <img name="slide1" class="imgpos" />
+                    <p class="topics">Hotel And Resort</p>
+                </div>
+                <div class="grid-itemD item6">
+                    <div style="float: left">
+                        <h2>TraveL Expert limited</h2>
+                        <h3>Contact Us:</h3>
+                        <ul>
+                            <li>Phone : 076 646 7933</li>
+                            <li>Email : travelexpert@gmail.com</li>
+                            <li>Facebook : travelexpert/www.facebook.com</li>
+                            <li>Twitter : Travel Expert</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <img src="Logo3t.png" style="width: 330px; height: 330px; float: right" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        var i = 0;
+        var images1 = [],
+            images2 = [],
+            images3 = [],
+            images4 = [];
+        var time = 2500;
+
+        images1[0] = "photos/HotelNResort/ananthara.jpg";
+        images1[1] = "photos/HotelNResort/Amari.jpg";
+        images1[2] = "photos/HotelNResort/Thaproban.jpg";
+        images1[3] = "photos/HotelNResort/Shangrila.jpg";
+        images1[4] = "photos/HotelNResort/Thuduwa.jpg";
+
+        images2[0] = "photos/Activities/pic3.jpeg";
+        images2[1] = "photos/Activities/pic7.jpeg";
+        images2[2] = "photos/Activities/pic10.jpeg";
+        images2[3] = "photos/Activities/pic13.jpeg";
+        images2[4] = "photos/Activities/pic17.jpeg";
+
+        images3[0] = "photos/Destination/Hikkaduwa_1.jpg";
+        images3[1] = "photos/Destination/Hikkaduwa_4.jpg";
+        images3[2] = "photos/Destination/Mirissa_1.jpg";
+        images3[3] = "photos/Destination/Udawalawe_1.jpg";
+        images3[4] = "photos/Destination/Tangalle_4.jpg";
+
+        images4[0] = "photos/Transportation/vehi1.jpg";
+        images4[1] = "photos/Transportation/vehi2.jpg";
+        images4[2] = "photos/Transportation/vehi3.jpg";
+        images4[3] = "photos/Transportation/vehi4.jpg";
+        images4[4] = "photos/Transportation/vehi5.jpg";
+
+        function changeImg() {
+            document.slide1.src = images1[i];
+            document.slide2.src = images2[i];
+            document.slide3.src = images3[i];
+            document.slide4.src = images4[i];
+
+            if (i < 5 - 1) {
+                i++;
+            } else {
+                i = 0;
+            }
+            setTimeout("changeImg()", time);
+        }
+        window.onload = changeImg;
+    </script>
+</body>
+
+</html>
